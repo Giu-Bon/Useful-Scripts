@@ -1,0 +1,6 @@
+*.kate-swp
+*.vscodium
+*/Borked/*
+In-Progress/*
+old/*
+Private/*
