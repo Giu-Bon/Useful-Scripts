@@ -1,9 +1,11 @@
 #!/bin/bash
 
-# funtcion rmoving the "-" that way it looks good and is usable
+# funtcion rmoving the "-" that way it looks good and is usable 
+# NEW Added: now you can write comments using # 
+# Eveything behind # will be ignored
 extract_programs() {
     local file="$1"
-    grep -E '^\s*- ' "$file" | sed 's/^\s*- //' | tr '\n' ' '
+    grep -E '^\s*- ' "$file" | sed 's/#.*//' | sed 's/^\s*- //' | tr '\n' ' '
 }
 
 #############################################
@@ -41,7 +43,7 @@ sudo flatpak install -y flathub com.github.tchx84.Flatseal
 
 # Install Flatpaks
 for flatpak in $flatpak_list; do
-    sudo flatpak install -y flathub "$app"
+    sudo flatpak install -y flathub "$flatpak"
 done
 
 echo "All installations are complete!"

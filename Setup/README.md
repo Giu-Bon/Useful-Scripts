@@ -44,7 +44,7 @@ It is really easy to adjust it for other Linux Distros
 ```
 .
 ├── Setup.sh               # The main script
-├── binary.md              # List of binary packages to install via dnf
+├── binary.md              # List of Programms to install via dnf
 └── flatpak.md             # List of Flatpak applications to install
 ```
 
@@ -56,8 +56,8 @@ It is really easy to adjust it for other Linux Distros
 # Binary Packages
 ## All Programms listed in here will be installed using dnf
 - Programm
-- Another-programm
-- And-Another-PROGRAMM
+- Another-programm # Yeah this is a good Programm 
+- And-Another-PROGRAMM # and this comment will be ignored
 ```
 
 #### `flatpak.md`
@@ -65,15 +65,15 @@ It is really easy to adjust it for other Linux Distros
 ```markdown
 # Flatpak Applications
 ## All Programms listed in here will be installed using flatpak
-- com.Programm.Client
+- com.Programm.Client # Comment will be ignored :)
 - com.old-Best.Browser-Firefox
-- actual.Best.Browser-Brave
+- actual.Best.Browser-Brave 
 ```
 
 ---
 ## Usage
 
-1. **Clone or Download** this repository to your system.
+1. **Clone or Download** this folder of the repository to your system. And `cd` into it ofc.
 2. **Ensure the script is executable**:
     
     ```bash
