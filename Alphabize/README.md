@@ -1,4 +1,4 @@
-# 📖 Alphabize - Your noobly Programmed  Phonetic Alphabet Translator  
+# 📖 Alphabize - Your noobly Programmed Phonetic Alphabet Translator  
 
 ## Why does it exsist?
 I created this script because I have a long name, and spelling it out over the phone is frustrating. To make life easier, I wrote this program to instantly translate words into both the **NATO** and **German** phonetic alphabets. Now, instead of struggling to spell my name or Email over the Phone, I can just let my code do the work! 🚀
@@ -55,4 +55,7 @@ I didnt wanna look up the alphabets again and had more success with those words.
 Feel free to fork this project and submit pull requests if you want to improve it! 🚀  
 
 ---
-Made with **FRUSTRATION** because spelling my name should be easier! 😄  
+Made with **FRUSTRATION** because spelling my name should be easier! 😄 
+
+---
+Disclaimer: this Readme was initially written by Llama3 and edited by me... 
